@@ -1,0 +1,7 @@
+model,category,size_mb,size_reduction_pct,top1_accuracy,top5_accuracy,top10_accuracy,mrr,avg_latency_ms,median_latency_ms,p95_latency_ms,throughput_qps,probe_precision
+Baseline FP32,Baseline,0.7699,0.0,5.0,5.0,6.0,0.0548,5.53,5.26,7.55,180.7,0.3941
+Baseline Dynamic INT8,Baseline,0.4032,47.63,5.0,5.0,6.0,0.0547,12.27,10.11,12.26,81.5,0.4331
+Baseline Static INT8,Baseline,0.462,40.0,5.0,5.0,5.0,0.055,12.8,11.19,14.73,78.1,0.3558
+Optimized FP32,Optimized,0.7713,0.0,4.0,6.0,10.0,0.055,5.54,5.49,7.63,180.7,0.3311
+Optimized Dynamic INT8,Optimized,0.4106,46.67,4.0,6.0,11.0,0.0522,13.19,10.63,13.59,75.8,0.3333
+Optimized Static INT8,Optimized,0.4791,37.77,5.0,8.0,10.0,0.0632,19.5,19.14,24.87,51.3,0.2573
