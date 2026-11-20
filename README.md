@@ -1,5 +1,6 @@
 # Quantized Retail Recommender: Language Models from Scratch
 
+[![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/ffmua7yg3f/badge.svg)](https://msrit.ask.thili.ai/b/ffmua7yg3f)
 [![Tests](https://img.shields.io/badge/pytest-18%20passed-brightgreen)](tests/)
 [![Python](https://img.shields.io/badge/python-3.12-blue)](requirements.txt)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.15%20CPU-orange)](https://pytorch.org/)
